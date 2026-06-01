@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <!-- <meta name="description" content="A clean and responsive NFT preview card component challenge from Frontend Mentor.">
+  <meta property="og:title" content="Frontend Mentor | NFT preview card component">
+  <meta property="og:description" content="A clean and responsive NFT preview card component challenge from Frontend Mentor.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/image-equilibrium.jpg"> -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <article class="nft-card">
+      
+      <div class="nft-card__img-container" tabindex="0" aria-label="View Equilibrium #3429 NFT digital artwork">
+        <img class="nft-card__img" src="images/image-equilibrium.jpg" alt="Equilibrium digital art cube balancing on an edge with vibrant neon lighting">
+        <div class="nft-card__overlay" aria-hidden="true">
+          <img class="nft-card__view-icon" src="images/icon-view.svg" alt="">
+        </div>
+      </div>
+
+      <div class="nft-card__content">
+        <h1 class="nft-card__title">
+          <a href="#" class="nft-card__link">Equilibrium #3429</a>
+        </h1>
+        
+        <p class="nft-card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="nft-card__bid-info">
+          <div class="nft-card__price" aria-label="NFT Price">
+            <img src="images/icon-ethereum.svg" alt="" aria-hidden="true">
+            <span>0.041 ETH</span>
+          </div>
+          <div class="nft-card__countdown" aria-label="Time left on auction">
+            <img src="images/icon-clock.svg" alt="" aria-hidden="true">
+            <span>3 days left</span>
+          </div>
+        </div>
+
+        <hr class="nft-card__divider">
+
+        <footer class="nft-card__creator">
+          <img class="nft-card__avatar" src="images/image-avatar.png" alt="Jules Wyvern portrait">
+          <p class="nft-card__author-text">
+            Creation of <a href="#" class="nft-card__author-link">Jules Wyvern</a>
+          </p>
+        </footer>
+
+      </div>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Shivam-prajapati-607">Shivam Prajapati</a>.
+  </footer>
+
+</body>
+</html>

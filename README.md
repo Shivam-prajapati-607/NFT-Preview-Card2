@@ -26,7 +26,7 @@ The project displays an NFT preview card with:
 
 ## Links
 
-- Live Site URL:
+- Live Site URL: https://shivam-prajapati-607.github.io/NFT-Preview-Card2/
 - Repository URL: https://github.com/Shivam-prajapati-607/NFT-Preview-Card
 
 ## What I Learned
